@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 50px;
+    min-height: 100vh;
+    background: #f0f4f8;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  input, select, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  .todo.done {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
